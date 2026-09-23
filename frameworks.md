@@ -232,7 +232,7 @@ Ship two versions simultaneously. Measure which performs better against your tar
 **Rules:**
 - Test ONE variable at a time
 - Measure behavioral outcomes, not opinions
-- Run until statistically significant
+- Run until statistically significant (requires $N \ge 30$ conversions per variant; micro-cohorts with $N < 30$ are qualitative directional indicators, not statistical proofs)
 - The control group matters - always have one
 
 ### The Three A's - Expanded

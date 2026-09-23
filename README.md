@@ -1,20 +1,42 @@
-# Lean Startup — Agent Skill
+# The Lean Startup — Agent Skill (2026 Edition)
 
-> An AI agent skill implementing Eric Ries's **Lean Startup** methodology for building products under extreme uncertainty.
-> Compatible with **Claude Code**, **Google Antigravity**, **Cursor**, and any agent platform supporting markdown skills.
+> **Stop wasting months building features nobody wants.**  
+> This skill transforms **Claude Code**, **Google Antigravity**, **Cursor**, and AI coding agents into an adversarial startup operating partner that ruthlessly shreds vanity metrics, scopes 7-day MVPs, and outputs execution-ready experiment specifications.
 
 ---
 
-## 📌 Overview
+## ⚡ What This Skill Actually Delivers to the User
 
-This skill equips AI agents with the mental models, decision trees, case studies, and practical templates from Eric Ries's *The Lean Startup* (2011). It guides founders and product teams through the **Build-Measure-Learn** feedback loop, testing leap-of-faith assumptions, designing minimum viable products (MVPs), practicing innovation accounting, and making disciplined pivot-or-persevere decisions.
+Rather than generating vague book summaries or conversational advice, this skill enforces a **deterministic output contract**. When you prompt your agent, it produces 4 concrete, actionable artifacts:
+
+```
+┌────────────────────────────────────────────────────────────────────────┐
+│                        AGENT OUTPUT CONTRACT                           │
+├──────────────────────────────┬─────────────────────────────────────────┤
+│ 1. 🧪 EXPERIMENT SPEC        │ 1-Page blueprint with Leap-of-Faith     │
+│    (BML LOOP PLAN)           │ hypothesis, exact traffic channel, and  │
+│                              │ pre-committed numerical FAIL criteria.  │
+├──────────────────────────────┼─────────────────────────────────────────┤
+│ 2. ✂️ MVP DECONSTRUCTION     │ Cuts 9 out of 10 roadmap features.      │
+│    SCOPING SPEC              │ Scopes a 48-hour Concierge or Wizard of │
+│                              │ Oz manual test before writing code.     │
+├──────────────────────────────┼─────────────────────────────────────────┤
+│ 3. 📊 COHORT RETENTION &     │ Shreds cumulative "up-and-to-the-right" │
+│    MARGIN DIAGNOSTIC         │ vanity graphs into Day 1/7/30 cohorts   │
+│                              │ and Gross-Margin-Adjusted LTV/CPA math. │
+├──────────────────────────────┼─────────────────────────────────────────┤
+│ 4. 🔄 PIVOT-OR-PERSEVERE     │ Board-ready analysis evaluating tuning  │
+│    DECISION MEMO             │ exhaustion, runway in pivots remaining, │
+│                              │ and matching to 1 of 10 pivot types.    │
+└──────────────────────────────┴─────────────────────────────────────────┘
+```
 
 ---
 
 ## 🚀 Quick Install
 
 ### 1. Claude Code
-Clone or symlink into your Claude skills directory:
+Clone directly into your Claude skills directory:
 ```bash
 git clone https://github.com/NexFabric/lean-startup-skill.git ~/.claude/skills/lean-startup
 ```
@@ -26,7 +48,25 @@ ln -s ~/.claude/skills/lean-startup ~/.gemini/config/skills/lean-startup
 ```
 
 ### 3. Cursor / Custom Prompts
-Reference [SKILL.md](SKILL.md) directly in your `.cursorrules` or agent instructions.
+Reference [SKILL.md](SKILL.md) directly in your `.cursorrules` or project instructions.
+
+---
+
+## 🎯 When to Use This Skill
+
+### Trigger Prompts (EN & TR):
+- *"How do we test this SaaS idea fast without building the full product?"* / *"Fikrimi kod yazmadan nasıl hızlı test ederim?"*
+- *"What should our MVP look like (Smoke test, Video, Concierge, Wizard of Oz)?"* / *"Bu ürün için MVP tasarımı yap"*
+- *"Our dashboard shows 10,000 signups but revenue is flat. What's wrong?"* / *"Vanity metric tuzağında mıyız?"*
+- *"We ran 5 A/B tests and conversion hasn't moved. Should we pivot?"* / *"Pivot etmeli miyiz, persevering mi yapmalıyız?"*
+- *"Audit our innovation accounting and cohort retention curves."*
+
+### Exclusions & Handoffs:
+- **Scaling proven PMF in enterprise**: Use *Crossing the Chasm*.
+- **Customer conversation questioning technique**: Use *The Mom Test*.
+- **Enterprise sales objection handling**: Use *SPIN Selling*.
+- **High-ticket offer construction & bonuses**: Use *$100M Offers*.
+- **Pricing tier optimization**: Use *Monetizing Innovation*.
 
 ---
 
@@ -34,68 +74,25 @@ Reference [SKILL.md](SKILL.md) directly in your `.cursorrules` or agent instruct
 
 | File | Content & Purpose |
 |---|---|
-| **[`SKILL.md`](SKILL.md)** | **Core agent instruction file** containing the 5 principles, Build-Measure-Learn loop, MVP types, Innovation Accounting milestones, 10 Pivots, 3 Engines of Growth, Small Batches, Five Whys, decision trees, and modern relevance. |
-| **[`frameworks.md`](frameworks.md)** | **Deep-dive mechanics**: Reverse planning (Learn → Measure → Build), value vs. growth hypotheses, analogs/antilogs, math of the 3 engines of growth, SMED, continuous deployment, Andon cord, Five Whys rules, and corporate Innovation Sandboxes. |
-| **[`cases.md`](cases.md)** | **14 detailed real-world case studies**: IMVU, Zappos, Dropbox, Groupon, Grockit, Votizen, Wealthfront, QuickBooks / Intuit, IGN Entertainment, SGW Designworks, School of One, Food on the Table, and cautionary disasters (Webvan, Apple Newton, Iridium). |
-| **[`examples.md`](examples.md)** | **Actionable templates & worksheets**: Build-Measure-Learn cycle planner, MVP selection worksheet, innovation accounting funnel template, pivot-or-persevere agenda, engine of growth diagnostic, cohort analysis tracker, Five Whys template, and an end-to-end startup case study (MealSync). |
-| **[`integration.md`](integration.md)** | **Strategic interoperability**: How Lean Startup integrates with *Four Steps to the Epiphany*, *The Mom Test*, *Crossing the Chasm*, *$100M Offers*, *SPIN Selling*, *Obviously Awesome*, *Monetizing Innovation*, and *Blue Ocean Strategy*, plus the master 3-phase sequence (Search → Launch → Scale). |
+| **[`SKILL.md`](SKILL.md)** | **Core agent runtime contract (<170 lines)**: Enforced output schemas (Experiment Spec & Pivot Audit), operational guardrails, engine mechanics, and decision trees. Optimized for LLM primacy/recency attention. |
+| **[`frameworks.md`](frameworks.md)** | **Deep-dive mechanics**: Reverse planning (Learn → Measure → Build), value vs. growth hypotheses, analogs/antilogs, math of the 3 engines, SMED, continuous deployment, Andon cord, Five Whys, and corporate Innovation Sandboxes. |
+| **[`cases.md`](cases.md)** | **14 detailed case studies**: IMVU (continuous deployment), Zappos (Wizard of Oz), Dropbox (video MVP), Groupon (WordPress MVP), Grockit (cohort analysis), Votizen (pivot acceleration), Wealthfront, Intuit SnapTax, etc. |
+| **[`examples.md`](examples.md)** | **Actionable templates & worksheets**: BML cycle planner, MVP selection worksheet, innovation accounting setup template, pivot meeting agenda, Five Whys template, and end-to-end MealSync case study. |
+| **[`integration.md`](integration.md)** | **Strategic interoperability**: How Lean Startup integrates with *Four Steps to the Epiphany*, *The Mom Test*, *Crossing the Chasm*, *$100M Offers*, *SPIN Selling*, *Obviously Awesome*, *Monetizing Innovation*, and *Blue Ocean Strategy*. |
+| **[`evals/`](evals/)** | **10-case benchmark test suite** verifying that AI models output structured deliverables, call out vanity metrics, enforce distribution plans, and respect regulatory boundaries. |
 
 ---
 
-## 🎯 When to Use This Skill
+## 🛡️ Operational Guardrails (2026 Reality Filters)
 
-### Triggers:
-- "How do we test this idea fast without building the full product?"
-- "What should our MVP look like (Smoke test, Video, Concierge, Wizard of Oz)?"
-- "Our metrics look good on the dashboard, but revenue isn't growing (vanity metrics trap)."
-- "Should we pivot or persevere?"
-- "We're building features nobody seems to use."
-- "How do we measure validated learning?"
-- "How do we set up innovation accounting and cohort retention?"
-
-### When NOT to Use:
-- **Proven Product/Market Fit**: Scaling an established playbook in enterprise tech → use *Crossing the Chasm*.
-- **Market Type Classification**: Determining if you are entering an existing, resegmented, or new market → use *Four Steps to the Epiphany*.
-- **Qualitative Customer Interviews**: Learning how to interview customers without biasing them → use *The Mom Test*.
-- **Offer Construction & Packaging**: Designing high-converting guarantees and bonuses once value is proven → use *$100M Offers*.
-- **Pricing Strategy**: Designing product tiers around willingness to pay → use *Monetizing Innovation*.
-
----
-
-## 🧠 Core Mental Models
-
-```
-         IDEAS
-        /      \
-       /        \
-  LEARN          BUILD
-      \          /
-       \        /
-        DATA--PRODUCT
-        (Measure)
-
-  Rule: Plan in reverse (Learn -> Measure -> Build).
-        Execute forward (Build -> Measure -> Learn).
-```
-
-### The Three Engines of Growth
-1. **Sticky Engine**: Driven by retention. Growth = New Acquisition Rate − Churn Rate.
-2. **Viral Engine**: Driven by side effect of usage. Viral coefficient $k > 1.0$ produces exponential growth.
-3. **Paid Engine**: Driven by unit economics. Growth occurs when Customer Lifetime Value exceeds Cost Per Acquisition ($\text{LTV} > \text{CPA}$).
-
-### Innovation Accounting Milestones
-1. **Establish the Baseline**: Ship an MVP and measure real customer behavior (cohort conversion, retention).
-2. **Tune the Engine**: Run single-variable experiments to move metrics toward the ideal model.
-3. **Pivot or Persevere**: Evaluate if progress is sufficient to achieve the model before runway runs out (Runway = Pivots Remaining).
-
----
-
-## 📜 Intellectual Lineage & Fair Use Notice
-
-This skill is an independent analytical synthesis and practical adaptation for AI agents. It does not replace Eric Ries's original book *The Lean Startup* (Crown Business, 2011). We strongly recommend reading the original text for full historical context and philosophical depth.
+1. **Zero Theory Lectures**: The agent will never lecture you on Eric Ries quotes. It generates immediate experiment specifications or audits.
+2. **Mandatory Distribution Plan**: An MVP without traffic yields 0 data. The agent strictly rejects any Smoke Test that lacks an explicit, realistic traffic source (targeted subreddit, cold outreach list, ad campaign budget).
+3. **Statistical Rigor ($N \ge 30$)**: In small cohorts ($N < 30$), percentage split tests are statistical noise. The agent demands qualitative commitment signals (deposits, signed letters of intent) rather than percentage conversions.
+4. **AI Unit Economics (Token COGS)**: In AI products, the agent evaluates Paid Engine viability as $(\text{Gross Margin} \times \text{LTV}) > \text{CPA}$, preventing runaway token inference burn from disguising as "growth."
+5. **Safety-Critical Domain Fence**: In medical, clinical, fintech, or legal custody domains, the agent strictly halts deceptive fake-door smoke tests and enforces verified discovery proxies.
 
 ---
 
 ## 📄 License
 
-MIT License. Free to use, adapt, and share.
+MIT License — Copyright (c) 2026 NexFabric. Free to use, adapt, and share.

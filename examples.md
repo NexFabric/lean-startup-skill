@@ -541,9 +541,11 @@ RUNWAY CHECK:
 | Week 1 retention | 83% (5/6) | 100% (6/6) |
 | Week 4 retention | 50% (3/6) | 83% (5/6) |
 
-**Learning:** Hypothesis validated. Simple recipes dramatically improve retention. The feature customers want most is NOT variety - it's speed and ease. This contradicts what customers SAID they wanted (variety) but aligns with their behavior.
+**Learning:** Strong directional signal supported by qualitative evidence. While N=12 is too small for formal statistical significance, the behavioral contrast was unmistakable: all 5 active Group B customers repeatedly messaged praise for the simplicity, whereas Group A experienced recipe fatigue. The feature customers want most is NOT culinary variety — it is speed and cognitive ease.
 
-**Decision:** Persevere. All plans shift to simple recipes. Begin building automation (the concierge phase has served its purpose - we know what to build).
+> **Statistical Note for Small Batches ($N < 30$):** When testing with micro-cohorts, do not rely solely on percentage lifts. Pair directional numbers with observable customer commitment (retention logs, unsolicited praise, repeat orders). Reserve formal A/B split-test claims for cohorts with $N \ge 30$ per variant.
+
+**Decision:** Persevere. All future plans standardize on simple recipes. Begin building software automation (concierge discovery is complete).
 
 ---
 
