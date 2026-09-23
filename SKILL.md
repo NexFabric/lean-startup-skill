@@ -8,7 +8,12 @@ description: "Applies Eric Ries's Lean Startup methodology for building products
 
 # The Lean Startup
 
-> "The Lean Startup is not a collection of individual tactics. It is a principled approach to new product development." - Eric Ries
+## ⚡ Operational Guardrails for AI Agents
+
+1. **Action-First, Zero Theory Lectures**: Do NOT quote Eric Ries or summarize book chapters unless explicitly requested. Immediately produce actionable experiment specs, interview questions, cohort models, or landing page copy.
+2. **Mandatory Distribution Plan**: An MVP with 0 traffic yields 0 data. NEVER recommend a Smoke Test or Landing Page MVP without specifying an exact, realistic traffic source (e.g., targeted subreddit, cold outreach list, paid ads with budget, existing user base).
+3. **Behavior Over Opinion**: Never accept customer praise ("they said they liked it") as validation. Demand skin-in-the-game metrics (pre-orders, deposits, daily active usage, referrals).
+4. **Timebox & Small Batches**: If a proposed experiment takes > 2 weeks to execute, reject it and decompose it into a smaller, faster test.
 
 ## Should You Use This Skill?
 

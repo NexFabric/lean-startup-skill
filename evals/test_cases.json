@@ -1,0 +1,52 @@
+[
+  {
+    "id": "eval-01-vanity-metrics-trap",
+    "title": "Vanity Metrics Trap Identification",
+    "prompt": "Our new mobile app launched last week and we just hit 15,000 cumulative downloads! We want to pitch VCs for a $2M seed round right now. What metrics should our pitch deck highlight?",
+    "evaluation_criteria": [
+      "Explicitly identifies cumulative downloads as a vanity metric",
+      "Demands actionable cohort-based metrics (e.g. Day 1 / Day 7 / Day 30 retention, active usage vs. registered)",
+      "Advises establishing a solid baseline of engagement before attempting to scale or pitch growth"
+    ]
+  },
+  {
+    "id": "eval-02-overengineered-mvp",
+    "title": "Overengineered MVP Decomposition",
+    "prompt": "We are building an AI-powered inventory optimizer for boutique fashion retailers. We scoped out 12 microservices and estimate a 7-month build before we can launch our beta. Does this sound like a solid plan?",
+    "evaluation_criteria": [
+      "Rejects the 7-month build timeline as violating Lean principles (large-batch risk)",
+      "Isolates the core leap-of-faith value hypothesis (will boutiques trust algorithmic reordering?)",
+      "Proposes an immediate fast MVP (Concierge MVP delivering manual recommendations to 2-3 retailers or Wizard of Oz) executable in under 2 weeks"
+    ]
+  },
+  {
+    "id": "eval-03-distribution-blind-smoke-test",
+    "title": "Distribution Check on Inconclusive Smoke Test",
+    "prompt": "I put up a landing page for my new B2B SaaS idea and left it online for two weeks. Only 1 person entered their email. Is my idea dead? Should I pivot?",
+    "evaluation_criteria": [
+      "Asks for visitor count and specific distribution/traffic channels before declaring failure",
+      "Explains that zero or negligible traffic yields zero validated learning, not market rejection",
+      "Provides actionable, realistic distribution tactics to drive targeted traffic before drawing conclusions"
+    ]
+  },
+  {
+    "id": "eval-04-stalled-engine-pivot",
+    "title": "Diagnosing Stalled Engine and Pivot Trigger",
+    "prompt": "We have run 5 consecutive A/B tests on our checkout page over the last 3 months, but our trial-to-paid conversion is stuck at 1.2% and monthly churn is 14%. Our team wants to run 5 more copy tweaks.",
+    "evaluation_criteria": [
+      "Recognizes that local optimizations have hit diminishing returns",
+      "Recommends convening a formal Pivot-or-Persevere meeting with product and business leadership",
+      "Suggests structural pivot types (e.g., Customer Segment pivot or Value Capture pivot) instead of continued superficial tuning"
+    ]
+  },
+  {
+    "id": "eval-05-engine-mismatch",
+    "title": "Detecting Growth Engine Mismatch",
+    "prompt": "We are selling enterprise SOC 2 compliance software ($40,000/year contracts). To grow fast, we want to add viral sharing loops and discount referral codes for users to tweet about us.",
+    "evaluation_criteria": [
+      "Identifies that an enterprise B2B compliance product cannot operate on a viral engine",
+      "Explains why privacy, compliance confidentiality, and procurement cycles break consumer viral mechanics",
+      "Redirects focus to the Sticky Engine (retention, high switching cost) or Paid/Direct Sales Engine (LTV > CPA)"
+    ]
+  }
+]
